@@ -1,0 +1,30 @@
+INKFLOW/
+├── client/                      # React Frontend
+│   ├── public/
+│   └── src/
+│       ├── assets/              # Static assets (images, icons)
+│       ├── components/          # Reusable UI components
+│       ├── features/            # Feature-based modules (e.g., blog, auth)
+│       │   ├── blog/            # Blog-related components/pages
+│       │   └── auth/            # Login/Register (bonus)
+│       ├── hooks/               # Custom React hooks (e.g., useDebounce)
+│       ├── services/            # Axios instances / API logic
+│       ├── utils/               # Helper functions (e.g., formatDate)
+│       ├── App.jsx
+│       └── main.jsx             # ReactDOM entry point
+│   └── package.json
+│
+├── server/                      # Node.js Backend
+│   ├── config/                  # DB connection, constants
+│   ├── controllers/             # Business logic
+│   ├── models/                  # Mongoose schemas
+│   ├── routes/                  # API endpoints
+│   ├── middleware/              # JWT, error handling, etc.
+│   ├── utils/                   # Helper functions
+│   ├── app.js                   # Express app instance
+│   └── index.js                 # Server entry point
+│
+├── .env                         # Environment variables
+├── .gitignore
+├── README.md
+└── package.json                 # (optional root config if using concurrently)
